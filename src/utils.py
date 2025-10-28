@@ -3,6 +3,14 @@ def clean_text(s: str) -> str:
     Return lowercase text with punctuation removed and extra spaces collapsed.
     TODO: implement me.
     """
+    return (s.lower()
+            .replace('.', '')
+            .replace(',', '')
+            .replace('!', '')
+            .replace('?', '')
+            .strip()
+            .replace('  ', ' '))
+
     raise NotImplementedError
 
 def average(nums):
