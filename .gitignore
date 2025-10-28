@@ -6,4 +6,5 @@ env/
 .pytest_cache/
 masaienv
 .github
+.github/workflows
 .DS_Store
