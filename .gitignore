@@ -5,3 +5,5 @@ env/
 .github
 .pytest_cache/
 masaienv
+.github
+.DS_Store
